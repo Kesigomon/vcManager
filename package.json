@@ -1,8 +1,9 @@
 {
   "scripts": {
+    "prepare": "npm run build && npm run register",
     "build": "tsc",
     "register": "node ./out/register.js",
-    "run": "node ./out/main.js"
+    "main": "node ./out/main.js"
   },
   "dependencies": {
     "@discordjs/builders": "^0.6.0",
